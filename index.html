@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizzeria Bella Vita - Menu</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, sans-serif;
+      background-color: #fff8f2;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #d1411f;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      background-color: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      border-bottom: 2px solid #d1411f;
+      padding-bottom: 0.5rem;
+      color: #d1411f;
+      margin-top: 2rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 1rem 0;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 0.5rem;
+    }
+    .pizza-name {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .pizza-desc {
+      display: block;
+      color: #555;
+      margin-top: 0.25rem;
+    }
+    .pizza-price {
+      float: right;
+      color: #d1411f;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍕 Pizzeria Bella Vita</h1>
+    <p>Authentic Italian Pizza Menu</p>
+  </header>
+  <main>
+    <h2>Classic Pizzas</h2>
+    <ul>
+      <li><span class="pizza-name">Margherita</span><span class="pizza-price">€6.50</span><span class="pizza-desc">Tomato sauce, mozzarella, fresh basil</span></li>
+      <li><span class="pizza-name">Marinara</span><span class="pizza-price">€5.90</span><span class="pizza-desc">Tomato sauce, garlic, oregano, olive oil</span></li>
+      <li><span class="pizza-name">Quattro Formaggi</span><span class="pizza-price">€8.20</span><span class="pizza-desc">Mozzarella, gorgonzola, parmesan, fontina</span></li>
+      <li><span class="pizza-name">Prosciutto e Funghi</span><span class="pizza-price">€8.00</span><span class="pizza-desc">Tomato sauce, mozzarella, ham, mushrooms</span></li>
+      <li><span class="pizza-name">Diavola</span><span class="pizza-price">€8.50</span><span class="pizza-desc">Tomato sauce, mozzarella, spicy salami, chili flakes</span></li>
+    </ul>
+
+    <h2>Gourmet Pizzas</h2>
+    <ul>
+      <li><span class="pizza-name">Capricciosa</span><span class="pizza-price">€9.00</span><span class="pizza-desc">Tomato sauce, mozzarella, ham, artichokes, olives, mushrooms</span></li>
+      <li><span class="pizza-name">Quattro Stagioni</span><span class="pizza-price">€9.20</span><span class="pizza-desc">Tomato sauce, mozzarella, ham, mushrooms, artichokes, olives</span></li>
+      <li><span class="pizza-name">Vegetariana</span><span class="pizza-price">€8.80</span><span class="pizza-desc">Tomato sauce, mozzarella, grilled zucchini, peppers, eggplant</span></li>
+      <li><span class="pizza-name">Tonno e Cipolla</span><span class="pizza-price">€8.50</span><span class="pizza-desc">Tomato sauce, mozzarella, tuna, red onions</span></li>
+      <li><span class="pizza-name">Frutti di Mare</span><span class="pizza-price">€10.00</span><span class="pizza-desc">Tomato sauce, mozzarella, mixed seafood, garlic</span></li>
+    </ul>
+
+    <h2>Specialty Pizzas</h2>
+    <ul>
+      <li><span class="pizza-name">BBQ Chicken</span><span class="pizza-price">€9.50</span><span class="pizza-desc">BBQ sauce, mozzarella, grilled chicken, red onions, corn</span></li>
+      <li><span class="pizza-name">Hawaiian</span><span class="pizza-price">€8.70</span><span class="pizza-desc">Tomato sauce, mozzarella, ham, pineapple</span></li>
+      <li><span class="pizza-name">Truffle Deluxe</span><span class="pizza-price">€11.00</span><span class="pizza-desc">Mozzarella, truffle cream, mushrooms, parmesan</span></li>
+      <li><span class="pizza-name">Pesto Genovese</span><span class="pizza-price">€9.30</span><span class="pizza-desc">Pesto base, mozzarella, cherry tomatoes, ricotta</span></li>
+      <li><span class="pizza-name">Carbonara Pizza</span><span class="pizza-price">€9.80</span><span class="pizza-desc">Cream sauce, pancetta, egg, parmesan</span></li>
+    </ul>
+
+    <h2>Premium Pizzas</h2>
+    <ul>
+      <li><span class="pizza-name">Bufalina</span><span class="pizza-price">€9.90</span><span class="pizza-desc">Tomato sauce, buffalo mozzarella, cherry tomatoes, basil</span></li>
+      <li><span class="pizza-name">Rustica</span><span class="pizza-price">€9.60</span><span class="pizza-desc">Tomato sauce, mozzarella, sausage, potatoes, rosemary</span></li>
+      <li><span class="pizza-name">Calzone Classico</span><span class="pizza-price">€9.00</span><span class="pizza-desc">Folded pizza with ham, mozzarella, tomato sauce</span></li>
+      <li><span class="pizza-name">Inferno</span><span class="pizza-price">€9.50</span><span class="pizza-desc">Tomato sauce, mozzarella, spicy salami, jalapeños, chili oil</span></li>
+      <li><span class="pizza-name">Chef’s Special</span><span class="pizza-price">€10.50</span><span class="pizza-desc">Tomato sauce, mozzarella, prosciutto crudo, arugula, parmesan</span></li>
+    </ul>
+  </main>
+  <footer>
+    © 2025 Pizzeria Bella Vita — Handcrafted with ❤️ in Naples
+  </footer>
+</body>
+</html>
